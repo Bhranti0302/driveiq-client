@@ -35,9 +35,9 @@ const Navbar = () => {
             className="text-2xl lg:hidden"
           >
             {isMenuOpen ? (
-              <img src={CloseIcon} alt="menuIcon" className="w-10 h-10" />
+              <img src={CloseIcon} alt="closeIcon" className="w-10 h-10" />
             ) : (
-              <img src={MenuIcon} alt="closeIcon" className="w-10 h-10" />
+              <img src={MenuIcon} alt="menuIcon" className="w-10 h-10" />
             )}
           </button>
         </div>

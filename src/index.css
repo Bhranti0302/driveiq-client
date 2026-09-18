@@ -1,1 +1,27 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+    /* Font */
+  --font-murecho: "Murecho", sans-serif;
+
+  /* Brand Colors */
+  --color-primary-light: #063A76;
+  --color-primary: #0A62C7;
+  --color-primary-dark: #0F0F0F;
+  --color-ternary: #5143CE;
+  --color-secondary-dark: #626161;
+  --color-secondary: #D6F2FF;
+  --color-secondary-light: #DAD6D6;
+  --color-lightest-grey: #EEEEEE;
+  --color-lightest-blue: #D6F2FF;
+  --color-lightest-pink: #FED6FF;
+  --color-lightest-orange: #FEDDD6;
+}
+
+body {
+  font-family: var(--font-murecho);
+}
+

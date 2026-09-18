@@ -1,5 +1,11 @@
+import HeroSection from "./sections/HeroSection"
+
 const Home = () => {
-    return <h1>DriveIQ Home</h1>
+    return (
+        <>
+            <HeroSection />
+        </>
+    )
 }
 
 export default Home;
